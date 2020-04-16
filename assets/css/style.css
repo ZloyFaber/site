@@ -1,0 +1,669 @@
+body{
+	background-attachment: fixed;
+}
+*{
+	margin:0;
+}
+.topHead {
+	width: 100%;
+	height: 31px;
+	background-color:rgb(238, 238, 236);
+   	display:flex;
+   	border-bottom-color:#ffcc00;
+   	border-bottom-style:solid;
+	border-bottom-width:3.5px;
+}
+.topNumber{
+	width: 20%;
+	height: 30px;
+	background-color:rgb(238, 238, 236);
+	margin: 0px 5px;
+	text-align:center;
+}
+.topNumTel a{
+	text-decoration: none;
+	font-family: "Noto Sans", sans-serif;
+	font-size:18px;
+	text-decoration-color:rgb(6, 83, 182);
+}
+.topNumIme{
+	height: 30px;
+	width: 30px;
+	display: inline-flex;
+	float: left;
+}
+.topNumTel{
+	height: 30px;
+	width: 80%;
+	background-color:rgb(238, 238, 236);
+	line-height: 30px;
+}
+.topMail{	
+	width: 20%;
+	height: 30px;
+	background-color:rgb(238, 238, 236);
+	margin: 0px 5px;
+}
+.topMailIme{
+	height: 30px;
+	width: 30px;
+	display: inline-flex;
+	float: left;
+}
+.topMailMail{
+	height: 30px;
+	width: 80%;
+	line-height: 30px;
+}
+.topMailMail a{
+	text-decoration: none;
+	font-family: "Noto Sans", sans-serif;
+	font-size:18px;
+	text-decoration-color:rgb(6, 83, 182);
+	font-weight:bold;
+}
+.topTime{
+	width: 30%;
+	height: 30px;
+	background-color:rgb(238, 238, 236);
+	margin: 0px 5px;
+}
+.topTimeIme{
+	height: 30px;
+	width: 30px;
+	display: inline-flex;
+	float: left;
+}
+.topTimeTime{
+	height: 30px;
+	width: 100%;
+	line-height: 40px;
+}
+.topTimeTime a{
+	text-decoration: none;
+	font-family: "Noto Sans", sans-serif;
+	font-size:18px;
+	text-decoration-color:rgb(6, 83, 182);
+	font-weight:bold;
+}
+.topSoc{
+	width: 10%;
+	height: 30px;
+	background-color:rgb(238, 238, 236);
+	margin: 0px 0px 5px 18%;
+}
+.topSoc .wt{
+	float: right;
+	width: 30px;
+    height: 30px;
+	background: url(../image/wt.png);
+}
+/*Место для верхнего Медиа запроса*/
+
+.topNav {
+	width: 100%;
+	height: 100px;
+	background-color:rgb(44, 44, 44);
+	display:flex;
+	margin-top: 1px;
+}
+.topLogo {
+	width: 15%;
+	height: 100px;
+	margin: 0px 5px;
+}
+.topYsl {
+	width: 15%;
+	height: 100px;
+	background-color:rgb(44, 44, 44);
+	margin: 0px 5px;
+	border-radius: 12px;
+}
+.topYsl a{
+	display: block;
+	font: normal 500 18px / 20px "Noto Sans",sans-serif;
+	color: #fff;
+    text-transform: uppercase;
+    line-height:100px;
+    margin-left: 36%;
+    font-weight:bold;
+    text-decoration: none;
+}
+.topYsl:hover {
+	width: 15%;
+	height: 100px;
+	background-color: #ffcc00;
+	margin: 0px 5px;
+}
+.topOnas{
+	width: 15%;
+	height: 100px;
+	background-color:rgb(44, 44, 44);
+	margin: 0px 5px;
+	border-radius: 12px;
+}
+.topOnas a{
+	display: block;
+	font: normal 500 18px / 20px "Noto Sans",sans-serif;
+	color: #fff;
+    text-transform: uppercase;
+    line-height:100px;
+    margin-left: 39%;
+    font-weight:bold;
+    text-decoration: none;
+}
+.topOnas:hover {
+	width: 15%;
+	height: 100px;
+	background-color: #ffcc00;
+	margin: 0px 5px;
+}
+.topAk{
+	width: 15%;
+	height: 100px;
+	background-color:rgb(44, 44, 44);
+	margin: 0px 5px;
+	border-radius: 12px;
+}
+.topAk a{
+	display: block;
+	font: normal 500 18px / 20px "Noto Sans",sans-serif;
+	color: #fff;
+    text-transform: uppercase;
+    line-height:100px;
+    margin-left: 39%;
+    font-weight:bold;
+    text-decoration: none;
+}
+.topAk:hover {
+	width: 15%;
+	height: 100px;
+	background-color: #ffcc00;
+	margin: 0px 5px;
+}
+.topPrise{
+	width: 15%;
+	height: 100px;
+	background-color:rgb(44, 44, 44);
+	margin: 0px 5px;
+	border-radius: 12px;
+}
+.topPrise a{
+	display: block;
+	font: normal 500 18px / 20px "Noto Sans",sans-serif;
+	color: #fff;
+    text-transform: uppercase;
+    line-height:100px;
+    margin-left: 39%;
+    font-weight:bold;
+    text-decoration: none;
+}
+.topPrise:hover {
+	width: 15%;
+	height: 100px;
+	background-color: #ffcc00;
+	margin: 0px 5px;
+}
+.topKont{
+	width: 15%;
+	height: 100px;
+	background-color:rgb(44, 44, 44);
+	margin: 0px 5px;
+	border-radius: 12px;
+}	
+.topKont a{
+	display: block;
+	font: normal 500 18px / 20px "Noto Sans",sans-serif;
+	color: #fff;
+    text-transform: uppercase;
+    line-height:100px;
+    margin-left: 35%;
+    font-weight:bold;
+    text-decoration: none;
+}
+.topKont:hover {
+	width: 15%;
+	height: 100px;
+	background-color: #ffcc00;
+	margin: 0px 5px;
+}
+main {
+	margin:7px 15% 0px 15%;
+	height: auto;
+}
+.NavKon {
+	width: 100%;
+	height: 280px;
+	background-image:url(../image/peugeot-service.jpg);
+}
+.NavNaz{
+	position: absolute;
+	width: 435px;
+	height: 60px;
+	background-color:#4d4d4d;
+	margin:140px 5px 5px 5px; 
+}
+.NavNaz:hover{
+	position: absolute;
+	width: 435px;
+	height: 60px;
+	background-color:#242425;
+	margin:140px 5px 5px 5px; 
+}
+.NavNaz h4{
+	color:rgb(255, 255, 255);
+	font-family:"Noto Sans", sans-serif;
+	font-size:30px;
+	line-height:60px;
+	font-weight:400;
+}
+.NavNaz1{
+	position: absolute;
+	width: 400px;
+	height: 60px;
+	background-color:#4d4d4d;
+	margin:5px; 
+	margin:210px 5px 5px 5px;
+}
+.NavNaz1 h4{
+	color:rgb(255, 255, 255);
+	font-family:"Noto Sans", sans-serif;
+	font-size:30px;
+	 line-height:60px;
+	 font-weight:400;
+}
+.NavNaz1:hover{
+	position: absolute;
+	width: 400px;
+	height: 60px;
+	background-color:#242425;
+	margin:5px; 
+	margin:210px 5px 5px 5px;
+}
+.NavKon2{
+	width: 32.4%;
+	height: 280px;
+	background-color:rgba(0, 0, 0,0.7);
+	float: right;
+}
+.NavKonMap  {
+	color:rgb(255, 255, 255);
+	font-size:20px;
+	font-family:"Noto Sans", sans-serif;
+ 	font-weight:bold;
+}
+.NavKonMap a{
+	display:block;
+	text-align: center;
+	line-height:40px;
+	width: 200px;
+	height: 40px;
+	background-color:rgba(44, 44, 44,0.8);
+	padding: 10px;
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: #f7ff21;
+	margin: 40px 15px 0px ;
+	border-radius: 10px;
+}
+.NavKonMap a:hover{
+	display:block;
+	text-align: center;
+	line-height:40px;
+	width: 200px;
+	height: 40px;
+	background-color:#ffcc00;
+	padding: 10px;
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: rgba(44, 44, 44,1);
+	margin: 40px 15px 0px ;
+	border-radius: 10px;
+}
+.spec{
+	height: 280px;
+	width: 32%;
+	margin: 1% 1.5% 0% 0%;
+	display: inline-block;
+	background-image:url(../image/Spec.jpg);
+}
+.spec a{
+	display:block;
+	height: 40px;
+	text-align: center;
+	line-height:50px;
+	background-color:rgba(44, 44, 44,0.8);
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: #fff;
+	margin: 240px 0px 0px ;
+	font-size:25px;
+	font-weight:400;
+}
+.spec a:hover{
+	display:block;
+	height: 40px;
+	text-align: center;
+	line-height:50px;
+	background-color:#ffcc00;
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: #2c2c2c;
+	margin: 240px 0px 0px ;
+	font-size:25px;
+	font-weight:400;
+}
+
+.sezAk{
+	height: 280px;
+	width: 32%;
+	margin: 1% 1.5% 0% 0%;
+	display: inline-block;
+	background-image:url(../image/autos2.jpg);
+}
+.sezAk a{
+	display:block;
+	height: 40px;
+	text-align: center;
+	line-height:50px;
+	background-color:rgba(44, 44, 44,0.8);
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: #fff;
+	margin: 240px 0px 0px ;
+	font-size:25px;
+	font-weight:400;
+}
+.sezAk a:hover{
+	display:block;
+	height: 40px;
+	text-align: center;
+	line-height:50px;
+	background-color:#ffcc00;
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: #2c2c2c;
+	margin: 240px 0px 0px ;
+	font-size:25px;
+	font-weight:400;
+}
+.zapis{
+	height: 280px;
+	width: 32%;
+	margin: 1% 0% 0% 0%;
+	display: inline-block;
+	background-image:url(../image/map.png);
+}
+.zapis a{
+	display:block;
+	height: 40px;
+	text-align: center;
+	line-height:50px;
+	background-color:rgba(44, 44, 44,0.8);
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: #fff;
+	margin: 240px 0px 0px ;
+	font-size:25px;
+	font-weight:400;
+}
+.zapis a:hover{
+	display:block;
+	height: 40px;
+	text-align: center;
+	line-height:50px;
+	background-color:#ffcc00;
+	font-family: "Noto Sans", sans-serif;
+	text-decoration: none;
+	color: #2c2c2c;
+	margin: 240px 0px 0px ;
+	font-size:25px;
+	font-weight:400;
+}
+.tex{
+	height: 60px;
+	width: 100%;
+	margin:5px 0 5px 0;
+	background-color:#4d4d4d;
+	color:rgb(255, 255, 255);
+	font-family:"Noto Sans", sans-serif;
+	font-size:25px;
+	line-height:60px;
+	font-weight:400;
+	overflow-x:hidden; 
+}
+.Mark{
+	height: auto;
+	width: 100%;
+	margin-top: 10px;
+}
+.Peug{
+	height: 400px;
+	width: 100%;
+	background-color:#4d4d4d;
+	margin-bottom: 5px;
+}
+.Cit{
+	height: 400px;
+	width: 100%;
+	background-color:#4d4d4d;
+	margin-bottom: 5px;
+}
+.Ssan{
+	height: 400px;
+	width: 100%;
+	background-color:#4d4d4d;	
+	margin-bottom: 5px;
+}
+.pred{
+	width: 100%;
+	height: 485px;
+	background-image:url(../image/12.png);
+}
+/* Слайдер */
+.slides {
+    height:500px;
+    overflow:hidden;
+    position:relative;
+    width:100%;
+}
+.slides ul {
+    list-style:none;
+    position:relative;
+}
+
+/* Кадры анимации #anim_slides */
+@-webkit-keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+@-moz-keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+.slides ul li {
+    opacity:0;
+    position:absolute;
+    top:0;
+
+    /* анимация css3 */
+    -webkit-animation-name: anim_slides;
+    -webkit-animation-duration: 24.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: anim_slides;
+    -moz-animation-duration: 24.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+}
+
+/* Задержки css3 */
+.slides ul  li:nth-child(2), .slides ul  li:nth-child(2) div {
+    -webkit-animation-delay: 6.0s;
+    -moz-animation-delay: 6.0s;
+}
+.slides ul  li:nth-child(3), .slides ul  li:nth-child(3) div {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+}
+.slides ul  li:nth-child(4), .slides ul  li:nth-child(4) div {
+    -webkit-animation-delay: 18.0s;
+    -moz-animation-delay: 18.0s;
+}
+.slides ul li img {
+    display:block;
+}
+
+/* Кадры анимации #anim_titles */
+@-webkit-keyframes anim_titles {
+    0% {
+        left:100%;
+        opacity:0;
+    }
+    5% {
+        left:10%;
+        opacity:1;
+    }
+    20% {
+        left:10%;
+        opacity:1;
+    }
+    25% {
+        left:100%;
+        opacity:0;
+    }
+    100% {
+        left:100%;
+        opacity:0;
+    }
+}
+@-moz-keyframes anim_titles {
+    0% {
+        left:100%;
+        opacity:0;
+    }
+    5% {
+        left:10%;
+        opacity:1;
+    }
+    20% {
+        left:10%;
+        opacity:1;
+    }
+    25% {
+        left:100%;
+        opacity:0;
+    }
+    100% {
+        left:100%;
+        opacity:0;
+    }
+}
+
+.slides ul li div {
+    background-color:#000000;
+    border-radius:10px 10px 10px 10px;
+    box-shadow:0 0 5px #FFFFFF inset;
+    color:#FFFFFF;
+    font-size:26px;
+    left:10%;
+    margin:0 auto;
+    padding:20px;
+    position:absolute;
+    top:50%;
+    width:200px;
+
+    /* Анимация css3 */
+    -webkit-animation-name: anim_titles;
+    -webkit-animation-duration: 24.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: anim_titles;
+    -moz-animation-duration: 24.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+}
+
+/*Подвал*/
+footer{
+	width: 100%;
+	height: 200px;
+	bottom: 0;
+}
+.foote{
+	width: 100%;
+	height: 200px;
+	background-image: url(../image/footer.jpg);
+	border-top-color:#ffcc00;
+   	border-top-style:solid;
+	border-top-width:3.5px;
+	bottom: 0;
+}
+
+@media screen and (max-device-width:479px) {
+	.topMailMail{
+		display: none;
+	}
+	.topMail{
+		display: none;
+	}
+	.topNumber{
+	width: 300px;
+	height: 30px;
+	background-color:rgb(238, 238, 236);
+	margin: 0px 15px 0px 3px;
+	text-align:center;
+	}
+	.topNumTel a{
+	width: 10px;
+	text-decoration: none;
+	font-family: "Noto Sans", sans-serif;
+	font-size:18px;
+	text-decoration-color:rgb(6, 83, 182);
+}
+}
